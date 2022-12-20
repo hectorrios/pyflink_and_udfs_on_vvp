@@ -5,7 +5,7 @@ The accompanying code repo for the blog post above.
 ## What's included
 The post goes over creating a new custom Flink image to be used instead of
 the out-of-the-box image, in order to run PyFlink jobs and call python based UDF functions
-in either pythong or java Jobs.
+in either python or java Jobs.
 
 * __Custom image Dockerfile__: In the custom_image directory
 * __Java Table API Job and UDF__: The directory "java_python_udf " contains the source code for a 

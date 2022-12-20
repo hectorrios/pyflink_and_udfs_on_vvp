@@ -56,7 +56,6 @@ public final class StreamSQLExample {
 
         //Set the python.files setting
         tableEnv.getConfig().getConfiguration().setString("python.files", "/flink/usrlib/upper_case.py");
-        //tableEnv.getConfig().getConfiguration().setString("python.client.executable", "python3.8");
 
         //define the temporary function
         tableEnv.executeSql("create temporary system function to_upper as 'upper_case.to_upper' language python");
